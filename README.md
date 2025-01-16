@@ -10,7 +10,7 @@ A pasta base será o local onde todos os projetos serão armazenados. Neste exem
 
 ### 2. Criação da Pasta para os seus projetos
 
-Coloque os arquivos deste repositório dentro da pasta `dev`, com o nome que desejar, como `workspace-php-8.3.3`.
+Clone os arquivos deste repositório dentro da pasta `dev`, com o nome que desejar, como `apache-php-portable-server`.
 
 ### 3. Criar a Pasta do projeto
 
@@ -21,8 +21,6 @@ Abra o arquivo de configuração de VirtualHost do Apache:
 
 `/apache-2.4/conf/httpd.conf`
 
----
-
 ### 5. Localizar as palavras e substituir pelo seu projeto
 
 Substitua `USER_NAME` pelo nome do usuário da sua conta do Windows, `FOLDER` pela pasta onde ficam os seus projetos e `PROJECT_NAME` pelo nome do projeto.
@@ -31,8 +29,6 @@ Substitua `USER_NAME` pelo nome do usuário da sua conta do Windows, `FOLDER` pe
 Abra o arquivo de configuração de VirtualHost do Apache:
 
 `/apache-2.4/conf/extra/httpd-vhosts.conf`
-
----
 
 ### 7. Localizar as palavras e substituir pelo seu projeto
 
